@@ -1,0 +1,28 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/niweb21/workspace/api",
+		},
+		{
+			"path": "/home/niweb21/Documents"
+		},
+		{
+			"path": "/home/niweb21/workspace/debug"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4,
+		"binary_file_patterns":
+		[
+			"tests/**"
+		],
+        "xdebug": {
+            "url": "http://host.dev/api/app_dev.php",
+    		"port": 9900,
+            "close_on_stop": true,
+            "super_globals": true
+        }
+	}
+}

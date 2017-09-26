@@ -1,0 +1,49 @@
+[
+	{ "keys": ["²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+	{ "keys": ["ctrl+à"], "command": "focus_side_bar" },
+
+	{ "keys": ["ctrl+k", "ctrl+à"], "command": "unfold_all" },
+	{ "keys": ["ctrl+k", "ctrl+&"], "command": "fold_by_level", "args": {"level": 1} },
+	{ "keys": ["ctrl+k", "ctrl+é"], "command": "fold_by_level", "args": {"level": 2} },
+	{ "keys": ["ctrl+k", "ctrl+\""], "command": "fold_by_level", "args": {"level": 3} },
+	{ "keys": ["ctrl+k", "ctrl+'"], "command": "fold_by_level", "args": {"level": 4} },
+	{ "keys": ["ctrl+k", "ctrl+("], "command": "fold_by_level", "args": {"level": 5} },
+	{ "keys": ["ctrl+k", "ctrl+-"], "command": "fold_by_level", "args": {"level": 6} },
+	{ "keys": ["ctrl+k", "ctrl+è"], "command": "fold_by_level", "args": {"level": 7} },
+	{ "keys": ["ctrl+k", "ctrl+_"], "command": "fold_by_level", "args": {"level": 8} },
+	{ "keys": ["ctrl+k", "ctrl+ç"], "command": "fold_by_level", "args": {"level": 9} },
+	{ "keys": ["ctrl+k", "ctrl+shift+à"], "command": "fold_by_level", "args": {"level": 10} },
+	{ "keys": ["ctrl+k", "ctrl+shift+&"], "command": "fold_by_level", "args": {"level": 11} },
+	{ "keys": ["ctrl+k", "ctrl+shift+é"], "command": "fold_by_level", "args": {"level": 12} },
+	{ "keys": ["ctrl+k", "ctrl+shift+\""], "command": "fold_by_level", "args": {"level": 13} },
+	{ "keys": ["ctrl+k", "ctrl+shift+'"], "command": "fold_by_level", "args": {"level": 14} },
+	{ "keys": ["ctrl+k", "ctrl+shift+("], "command": "fold_by_level", "args": {"level": 15} },
+	{ "keys": ["ctrl+k", "ctrl+shift+-"], "command": "fold_by_level", "args": {"level": 16} },
+	{ "keys": ["ctrl+k", "ctrl+shift+è"], "command": "fold_by_level", "args": {"level": 17} },
+	{ "keys": ["ctrl+k", "ctrl+shift+_"], "command": "fold_by_level", "args": {"level": 18} },
+	{ "keys": ["ctrl+k", "ctrl+shift+ç"], "command": "fold_by_level", "args": {"level": 19} },
+
+	{
+		"keys": ["f8"],
+		"command": "shell_command",
+		"args": {
+			"command": "gitg -c",
+			"title": "GitG"
+		}
+	},
+
+	{ "keys": ["ctrl+k", "i"], "command": "convert_to_snake"},
+	{ "keys": ["ctrl+k", "o"], "command": "convert_to_camel"},
+	{ "keys": ["ctrl+k", "p"], "command": "convert_to_pascal"},
+	{ "keys": ["ctrl+k", "m"], "command": "convert_to_separate_words"},
+
+	{"keys": ["shift+alt+f10"], "command": "xdebug_breakpoint"},
+	{"keys": ["shift+alt+f5"], "command": "xdebug_continue", "args": {"command": "run"}},
+	{"keys": ["shift+alt+f6"], "command": "xdebug_continue", "args": {"command": "step_over"}},
+	{"keys": ["shift+alt+f7"], "command": "xdebug_continue", "args": {"command": "step_into"}},
+	{"keys": ["shift+alt+f8"], "command": "xdebug_continue", "args": {"command": "step_out"}},
+	{"keys": ["shift+alt+f9"], "command": "xdebug_session_start"},
+	{"keys": ["shift+alt+f10"], "command": "xdebug_session_stop"},
+	{"keys": ["shift+alt+f11"], "command": "xdebug_layout", "args": {"keymap" : true}}
+]

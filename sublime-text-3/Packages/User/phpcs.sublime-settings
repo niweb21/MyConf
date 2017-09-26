@@ -1,0 +1,12 @@
+{
+    "phpcs_show_errors_on_save": false,
+    "phpcs_outline_for_errors": false,
+    "phpcs_php_path": "/usr/bin/php",
+    "phpcs_executable_path": "/home/niweb21/.config/composer/vendor/bin/phpcs",
+    "phpcs_icon_scope_color": "string",
+    "php_cs_fixer_on_save": true,
+    "php_cs_fixer_executable_path": "/home/niweb21/.config/composer/vendor/bin/php-cs-fixer",
+    "php_cs_fixer_additional_args": {
+        "--rules": "@Symfony,-trailing_comma_in_multiline_array,-phpdoc_annotation_without_dot,-binary_operator_spaces,-phpdoc_align,-pre_increment,-concat_space",
+    }
+}

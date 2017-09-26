@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	// "http_proxy": "http://host.proxy:8080",
+	// "https_proxy": "http://host.proxy:8080",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ayu",
+		"Behat Features",
+		"Case Conversion",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"Package Control",
+		"PHP Getters and Setters",
+		"Phpcs",
+		"SCSS",
+		"ShellCommand",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Twig",
+		"Xdebug Client"
+	]
+}
