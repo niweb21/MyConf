@@ -9,4 +9,6 @@
 /Packages/User/Package Control.user-ca-bundle
 /Packages/User/SublimeLinter
 /Packages/User/Xdebug.log
+/Packages/User/Xdebug.breakpoints
+/Packages/User/Xdebug.expressions
 *.sublime-workspace

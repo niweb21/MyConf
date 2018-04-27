@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$parser = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Persistence\\Generic\\Storage\\Typo3DbQueryParser');
+\$queryParts = \$parser->parseQuery(\$query);
+\TYPO3\CMS\Core\Utility\DebugUtility::debug(\$queryParts, 'Query');
+]]></content>
+	<tabTrigger>debug sql TYPO3</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

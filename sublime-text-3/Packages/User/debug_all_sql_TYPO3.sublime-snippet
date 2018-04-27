@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$GLOBALS['TYPO3_DB']->debugOutput = 2;
+]]></content>
+    <tabTrigger>debug all sql TYPO3</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

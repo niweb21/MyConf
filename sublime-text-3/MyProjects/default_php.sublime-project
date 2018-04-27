@@ -2,7 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/home/niweb21/workspace/api",
+			"path": "/home/niweb21/workspace/api"
 		},
 		{
 			"path": "/home/niweb21/Documents"
@@ -18,11 +18,11 @@
 		[
 			"tests/**"
 		],
-        "xdebug": {
-            "url": "http://host.dev/api/app_dev.php",
-    		"port": 9900,
-            "close_on_stop": true,
-            "super_globals": true
-        }
+		"xdebug": {
+			"url": "http://host.dev/api/app_dev.php",
+			"port": 9000,
+			"close_on_stop": true,
+			"super_globals": true
+		}
 	}
 }

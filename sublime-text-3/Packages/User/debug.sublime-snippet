@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 file_put_contents(
-    "/home/niweb21/workspace/debug/test.php",
+    "/var/www/html/mersen/debug/test.php",
     var_export([
         'var' => $var
     ], true),

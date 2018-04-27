@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\TYPO3\CMS\Core\Utility\DebugUtility::debug(${1});
+]]></content>
+	<tabTrigger>debug TYPO3</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
